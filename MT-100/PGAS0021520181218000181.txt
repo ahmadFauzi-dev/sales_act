@@ -1,0 +1,3 @@
+M;1;20181218;2;;;;1150042233777;1234512345;dinyi mastery;;;;IDR;100000001.00;;N;;INV-TEST-002 ,635;INV-TEST-002;RBU;BNINIDJA;PT. BANK NEGARA INDONESIA 1946;;;;;Y;hafidz.lazuardy@bios-it.co.id,gustaf.yulianto@pgascom.co.id;;;;;;INV-TEST-002,635;;;;;;;;;;;;;;;BEN;SPI;;;;;;;;;;;;;;;;;;;;;E;
+INV-TEST-005
+;

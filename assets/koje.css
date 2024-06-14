@@ -1,0 +1,382 @@
+/* ---------------------- General ---------------------------------------*/
+body {
+  font-size: 13px;
+  font-weight: 400;
+  margin : 0;
+}
+
+.col-13 {
+    width: calc((100vw / 13 ) - 1vw);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    float: left;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-header .logo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#itemCheckbox_service_lists {
+    margin-left: 206px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin: 24px 0 0;
+}
+
+.form-group textarea {
+    resize:both;
+}
+select { cursor: pointer; }
+
+input[readonly]:not(.date), textarea[readonly], select[readonly]
+{
+    background-color: #f9f9f9 !important;
+    background-image: none !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 13px!important;
+    margin: 6px 0 0 0 !important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 13px!important;
+    margin: 6px 0 0 0 !important;
+}
+
+::-webkit-input-placeholder {
+   font-size: 13px!important;
+   margin: 6px 0 0 0 !important;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.koje-logo {
+  max-width: 200px !important;
+}
+
+.no-background-image {
+  background-image: none !important;
+}
+
+.koje-error {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 0 0 0 !important;
+  color : red !important;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom !important;
+}
+
+.text-center {
+  text-align:center !important;
+}
+
+.login-logo {
+  background-color: #00bcd4 !important;
+}
+
+.box .box-header {
+    padding: 12px;
+}
+
+.content-header {
+    position: relative;
+    padding: 10px 10px 10px 0;
+}
+
+.content-header > .breadcrumb {
+    position: unset;
+    top: 15px;
+}
+
+.content {
+    min-height: 150px;
+}
+
+.treeview-menu {
+    margin: 0px 0px 0px 0px;
+    background: #d5d9d9 !important;
+    top : 42px !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+label {
+    color: #686868;
+}
+
+.btn-primary {
+  background-color: #3c8dbc !important;
+}
+.btn-primary:hover {
+  background-color: #2374a3 !important;
+}
+
+.btn-secondary {
+  background-color: #3c8dbc !important;
+}
+
+.help-block {
+  color:blue;
+}
+
+.widget-user-2 .widget-user-header {
+    padding: 6px;
+}
+
+.btnSearch {
+  color: #FFF;
+  cursor: pointer;
+}
+
+.form-group label.control-label {
+  margin: 10px 0 0 0;
+}
+/* ------------------ Menu ------------------------------------*/
+
+.nav {
+  max-height: calc(100% - 50px);
+}
+
+.sidebar {
+  overflow-y: auto;
+}
+.main-sidebar .user-panel {
+  padding: 8px 20px;
+  background-color: white !important;
+  background : none !important;
+}
+
+.dropdown-menu {
+    background-color: #ececec;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+
+.dropdown-menu li a {
+    color: #000;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #0073b7 !important;
+    color : #FFF !important;
+}
+
+/* ------------------------- Form ------------------------------------*/
+.form-control {
+  font-size: 13px;
+  font-weight: 400;
+  padding : 4px 0px 0px 4px;
+  height: 42px;
+}
+
+.form-group {
+    padding-bottom: 6px;
+    margin: 0 0 0 0;
+}
+
+
+label.control-label{
+  margin: 6px 0 0 0;
+  padding-top: 16px;
+}
+
+.form-control, .input-group {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.form-group .checkbox label, .form-group .radio label, .form-group label {
+  color : #686868;
+}
+
+.form-group input[type="file"] {
+    opacity: 1;
+    position: relative;
+    top: 6px;
+}
+
+.pickBtn {
+  background-color: #03a9f4 !important;
+  border-radius: 0px 4px 4px 0px !important;
+}
+
+/* ---------------------- select2 ---------------------------------------*/
+.select2 {
+  height : 3px;
+}
+
+.dt-select2-filter {
+  font-weight: normal;
+  border-top: 0 none !important;
+  border-right: 0 none !important;
+  border-left: 0 none !important;
+  border-bottom: 1px solid #aaa !important;
+  border-radius: 0px !important;
+  background-color: transparent !important;
+  margin-top: -6px !important;
+  padding: 6px 0px;
+}
+
+.select2-container--open .select2-dropdown--below {
+    border-top : 1px solid #aaa !important;
+    border-radius: 2px;
+}
+
+.select2-results__option {
+  height: 26px;
+}
+
+.select2-selection {
+  padding: 6px 0px !important;
+  height: 36px !important;
+}
+
+.select2-selection__rendered {
+  padding: 6px 4px !important;
+  min-width: 140px;
+}
+
+.select2-selection__arrow {
+  right: -12px !important;
+  top: 18px !important;
+}
+
+
+/* ------------------------------- dataTable --------------------------------*/
+@media (max-width: 767px) {
+  .table-responsive .dropdown-menu {
+    position: relative !important;
+  }
+}
+
+.table-responsive > .table-bordered {
+  border: 1px solid #c2c2c2;
+}
+
+.pagination .pagesize {
+  padding: 7px 0;
+  margin-top: 1px;
+}
+
+.table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    vertical-align: middle;
+    border: 1px solid #d2d2d2 !important;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th {
+  white-space: nowrap;
+  text-align:center;
+  font-weight:bold;
+  vertical-align: middle;
+  border: 1px solid #d2d2d2  !important;
+}
+
+.table-bordered > tfoot > tr > th {
+  white-space: nowrap;
+  text-align:right;
+  font-weight:bold;
+  vertical-align: middle;
+  border: 1px solid #d2d2d2  !important;
+}
+
+.table-bordered a {
+  color : #218d4c;
+}
+
+.koje-tr-spacer {
+  height:60px !important;
+  border:1px solid!important;
+}
+
+table.dataTable {
+    border-collapse:collapse;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+table thead th {
+  background-color: #e1e1e1;
+}
+
+table tfoot th {
+  background-color: #e2e2e2;
+}
+.table-toolbar, .table-toolbar a, .table-toolbar:hover {
+    text-align: center;
+    background-image: none !important;
+}
+
+.koje-filter1 {
+  background-color: #d5d9d9 !important;
+}
+/* -------------- GridStack -----------------------------*/
+.grid-stack-item-content {
+	top	 : 4px !important;
+	bottom	 : 0px !important;
+	left : 0px !important;
+	right: 0px !important;
+	width: 97% !important;
+}
+.stage {
+	display: inline-flex;
+	width : 99.3%;
+	padding-left: 0px;
+	margin-bottom:4px;
+}
+.stage-item {
+	width: 98%;
+	margin-right: 0px;
+}
+.stage .total {
+	background: white !important;
+	color: black;
+}
+
+/* --------------------- FullCalendar -------------------------*/
+
+.fc .skin-blue-light a, .fc .skin-blue-light a:hover, .fc .skin-blue-light a:focus {
+    color: #000 !important;
+}
+
+.fc .fc-event, .fc .fc-event-dot {
+    background-color: #000 !important;
+}
+
+
+.thumbnail {
+  border: 1px solid #a0a0a0;
+}
+
+.koje-btn {
+  margin : 0 0 0 0 !important;
+  border: 1px solid #999 !important;
+  border-radius: 2px !important;
+  text-transform: none !important;
+}
+
+.table-toolbar .koje-btn {
+  margin-right: 0.333em !important;
+  margin-bottom: 0.333em !important;
+  padding: 0.5em 1em !important;
+}
+
+
+/* ------------------ DatePicker -------------------------------*/
+.datepicker  {
+    z-index: 9999 !important;
+}
